@@ -13,7 +13,7 @@ The purpose of this project is to generate descriptive statistics with Polars an
 
 ### Summary Statistics of Movie and TV Show Release Years:
 
-![alt text](image.png)
+![alt text](images/image-1.png)
 
 
 ### Visualizations
