@@ -1,4 +1,4 @@
-name: Install
+name: Format
 
 on: #on key is used to specify the events that trigger the workflow
   push: #event type 
@@ -32,5 +32,9 @@ jobs: # Key is used to define one or more individual jobs that make up the workf
           python-version: 3.8
       - name: Install dependencies
         run: make install
-      
-      
+      - name: Format
+        run: make format
+          # applies consistent and standardized style to your code. 
+          # Often uses "black" in python;
+          # "Prettier for Javascript"
+          # "ClangFormat" for C/C++

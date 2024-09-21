@@ -1,4 +1,4 @@
-name: Install
+name: Lint
 
 on: #on key is used to specify the events that trigger the workflow
   push: #event type 
@@ -32,5 +32,12 @@ jobs: # Key is used to define one or more individual jobs that make up the workf
           python-version: 3.8
       - name: Install dependencies
         run: make install
-      
-      
+
+      - name: Lint 
+        run: make lint
+        # Linting is the process of automatically analyzing source code to find and flag 
+        # programming errors, bugs, stylistic issues, and other potential problems 
+        # Can flag security hazards like SQL injection etc... as well
+        # In Python, pylint and flake8 are popular linters.
+        # In JavaScript, ESLint is widely used.
+        # In C/C++, cppcheck and ClangTidy are common choices.

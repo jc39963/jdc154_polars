@@ -1,4 +1,4 @@
-name: Install
+name: Test
 
 on: #on key is used to specify the events that trigger the workflow
   push: #event type 
@@ -33,4 +33,6 @@ jobs: # Key is used to define one or more individual jobs that make up the workf
       - name: Install dependencies
         run: make install
       
-      
+      - name: Test
+        run: make test
+        # run tests on your codebase
