@@ -1,10 +1,10 @@
-[![Install](https://github.com/nogibjj/jdc154_Descriptive_Stats/actions/workflows/hello.yml/badge.svg)](https://github.com/nogibjj/jdc154_Descriptive_Stats/actions/workflows/hello.yml)
+[![Install](https://github.com/jc39963/jdc154_polars/actions/workflows/hello.yml/badge.svg)](https://github.com/jc39963/jdc154_polars/actions/workflows/hello.yml)
 
-[![Lint](https://github.com/nogibjj/jdc154_Descriptive_Stats/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/jdc154_Descriptive_Stats/actions/workflows/lint.yml)
+[![Lint](https://github.com/jc39963/jdc154_polars/actions/workflows/lint.yml/badge.svg)](https://github.com/jc39963/jdc154_polars/actions/workflows/lint.yml)
 
-[![Format](https://github.com/nogibjj/jdc154_Descriptive_Stats/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/jdc154_Descriptive_Stats/actions/workflows/format.yml)
+[![Format](https://github.com/jc39963/jdc154_polars/actions/workflows/format.yml/badge.svg)](https://github.com/jc39963/jdc154_polars/actions/workflows/format.yml)
 
-[![Test](https://github.com/nogibjj/jdc154_Descriptive_Stats/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/jdc154_Descriptive_Stats/actions/workflows/test.yml)
+[![Test](https://github.com/jc39963/jdc154_polars/actions/workflows/test.yml/badge.svg)](https://github.com/jc39963/jdc154_polars/actions/workflows/test.yml)
 
 # Netflix Movie and TV Shows Project Overview
 
@@ -39,15 +39,17 @@ This project contains:
 2. Load repo to code spaces
 2. Wait for installation of all requirements in requirements.txt
 
+![image](https://github.com/user-attachments/assets/42e7c45c-df9c-4092-a18d-d262369121aa)
+
 ## Check format and test errors
 1. Format code `make format`
-![image](https://github.com/user-attachments/assets/7688b60a-9f2b-45a2-acf3-8a7f66f346e1)
+![image](https://github.com/user-attachments/assets/d4af6bf3-585f-4cdd-b6e4-911dfc0f3529)
 
 2. Lint code `make lint`
-![image](https://github.com/user-attachments/assets/a225ac16-a6f1-4460-bc94-c6f9f6eae799)
+![image](https://github.com/user-attachments/assets/64b3ef60-438f-41b2-8ad3-0c1cf339ac58)
 
 3. Test code `make test`
-![image](https://github.com/user-attachments/assets/366e23c2-a513-400f-bb7d-900abbdd41b1)
+![image](https://github.com/user-attachments/assets/7a88efb3-e309-4499-83c1-d98adbfd4295)
 
 (alternatively, do all with `make all`)
 
