@@ -42,23 +42,23 @@ def plot_trends(data, category):
     cat_numpy = data.drop("release_year").to_numpy()
 
     # Plotting the stacked bar chart
-    ax = plt.subplots(figsize=(10, 6))[1]
+    axis = plt.subplots(figsize=(10, 6))[1]
     bottom = None  # To stack the bars
 
     # Loop through each rating and plot stacked bars
     for i, rating in enumerate(ratings):
         counts = cat_numpy[:, i]  # Get the count for each rating
-        ax.bar(release_years, counts, bottom=bottom, label=rating)
+        axis.bar(release_years, counts, bottom=bottom, label=rating)
         if bottom is None:
             bottom = counts  # Initialize bottom with the first bar
         else:
             bottom += counts  # Stack bars
 
     # Add labels and title
-    ax.set_xlabel("Year")
-    ax.set_ylabel("Count")
-    ax.set_title(f"{category} Ratings over the Years")
-    ax.legend(title="Rating")
+    axis.set_xlabel("Year")
+    axis.set_ylabel("Count")
+    axis.set_title(f"{category} Ratings over the Years")
+    axis.legend(title="Rating")
     plt.xticks(rotation=45)
 
     # Show the plot
